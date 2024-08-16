@@ -1,4 +1,4 @@
-import { creatClient, createClient } from '@supabase/supabase-js';
+import { createClient } from '@supabase/supabase-js';
 
 const URL = 'https://oscbhmawnehncrilxxkv.supabase.co';
 
