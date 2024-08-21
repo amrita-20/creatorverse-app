@@ -37,7 +37,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='https://drive.google.com/file/d/1n92Fn7TtqXL2L5_v27PMDWgGD-7qdti3/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+👉🏿<video src='https://drive.google.com/file/d/1n92Fn7TtqXL2L5_v27PMDWgGD-7qdti3/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Screen Recording created with QuickTime Player
 
