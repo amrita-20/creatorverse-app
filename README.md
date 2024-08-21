@@ -47,7 +47,7 @@ No major challenges were encountered during the development of Creatorverse. How
 
 ## License
 
-Copyright [👉🏿 2024] [👉🏿 name of copyright owner]
+Copyright [👉🏿 2024] [👉🏿 Amrita Dubey]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
