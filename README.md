@@ -36,12 +36,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
+👉🏿 https://imgur.com/a/rUw9Bqv.gif
 
-<img src='https://imgur.com/a/rUw9Bqv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with ...  👉🏿 GIF tool here
-
-**Licecap**
+GIF created with ...  
+👉🏿 GIF tool here  **Licecap**
 
 Here's a screen recording of implemented features:
 
