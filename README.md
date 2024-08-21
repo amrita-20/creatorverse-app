@@ -37,6 +37,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
+<img src='https://imgur.com/a/rUw9Bqv.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ...  👉🏿 GIF tool here
+
+**Licecap**
+
+Here's a screen recording of implemented features:
+
 👉🏿 https://drive.google.com/file/d/1n92Fn7TtqXL2L5_v27PMDWgGD-7qdti3/view?usp=sharing
 
 Screen Recording created with QuickTime Player
