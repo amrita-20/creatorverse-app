@@ -1,35 +1,32 @@
 import Card from "../components/Card";
 import { useEffect, useState } from "react";
-import { supabase } from "../client";
-import { Link } from "react-router-dom";
+import { fetchCreators } from "../services";
 
-function ShowCreators () {
-    const [creators, setCreators] = useState([]);
+function ShowCreators() {
+  const [creators, setCreators] = useState([]);
 
-    const fetchCreators = async () => {
-        const {data, error} = await supabase.from('creators').select('*');
-        setCreators(data);
-        if(error){
-            console.log(error)
-        }
-    }
+  const getCreators = async () => {
+    const data = await fetchCreators();
+    setCreators(data);
+  };
 
-    useEffect (() => {
-        fetchCreators();
-    }, [])
-    return (
-        <>
-        <h1>Creators</h1>
-        <Link to="/add">Add New Creator</Link>
-        <section className="show-creators">
-            {creators.map(creator => (
-                 <Card 
-                 backgroundImage={creator.imageUrl} url={creator.url} name={creator.name} description={creator.description} key={creator.id} id={creator.id}
-             />
-            ))}
-        </section>
-        </>
-    )
+  useEffect(() => {
+    getCreators();
+  }, []);
+
+  return (
+    <>
+      <section className="show-creators">
+        {creators.length === 0 ? (
+          <div>No Data to display</div>
+        ) : (
+          creators.map((creator) => (
+            <Card creatorData={creator} key={creator.id} />
+          ))
+        )}
+      </section>
+    </>
+  );
 }
 
 export default ShowCreators;

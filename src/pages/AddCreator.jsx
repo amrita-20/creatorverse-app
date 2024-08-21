@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-import { supabase } from "../client";
 import { useNavigate } from "react-router-dom";
 import { saveCreator } from "../services";
 
@@ -58,7 +56,9 @@ function AddCreator() {
         onChange={(e) => setCreator({ ...creator, url: e.target.value })}
         required
       />
-      <button type="submit">Add Creator</button>
+      <button type="submit" className="button">
+        Add Creator
+      </button>
     </form>
   );
 }
