@@ -1,5 +1,7 @@
 import "../css/Card.css";
 import { Link } from "react-router-dom";
+import { AiTwotoneEdit } from "react-icons/ai";
+import { AiOutlineInfoCircle } from "react-icons/ai";
 
 function Card({ creatorData }) {
   return (
@@ -16,14 +18,18 @@ function Card({ creatorData }) {
               to={`/creator/${creatorData.id}`}
               state={{ creatorData }}
             >
-              view
+              <span>
+                <AiOutlineInfoCircle size={20} />
+              </span>
             </Link>
             <Link
               className="card-link"
               to={`/edit/${creatorData.id}`}
               state={{ creatorData }}
             >
-              edit
+              <span>
+                <AiTwotoneEdit size={20} />
+              </span>
             </Link>
           </div>
         </div>
