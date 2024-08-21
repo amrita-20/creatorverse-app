@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import { saveCreator } from "../services";
 
 function AddCreator() {
@@ -36,7 +37,6 @@ function AddCreator() {
         className="input"
         value={creator.imageUrl}
         onChange={(e) => setCreator({ ...creator, imageUrl: e.target.value })}
-        required
       />
       <label htmlFor="name">Description</label>
       <input
@@ -46,7 +46,6 @@ function AddCreator() {
         onChange={(e) =>
           setCreator({ ...creator, description: e.target.value })
         }
-        required
       />
       <label htmlFor="name">Instagram</label>
       <input
