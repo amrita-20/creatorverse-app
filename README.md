@@ -41,12 +41,6 @@ Here's a screen recording of implemented features:
 
 👉🏿 https://drive.google.com/file/d/1n92Fn7TtqXL2L5_v27PMDWgGD-7qdti3/view?usp=sharing
 
-Screen Recording created with QuickTime Player
-
-## Notes
-
-No major challenges were encountered during the development of Creatorverse. However, I had to explore and learn how to effectively use Supabase for implementing CRUD operations.
-
 ## License
 
 Copyright [👉🏿 2024] [👉🏿 Amrita Dubey]
