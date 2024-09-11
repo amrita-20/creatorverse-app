@@ -1,6 +1,4 @@
-# WEB103 Prework - 👉🏿 *Creatorverse*
-
-Submitted by: **Amrita Dubey**
+👉🏿 *Creatorverse*
 
 About this web app: 
 
