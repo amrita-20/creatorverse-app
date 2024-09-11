@@ -4,8 +4,6 @@ About this web app:
 
 **Creatorverse is a web application built with React Vite and Supabase that allows users to manage content creators. The app offers CRUD functionality, allowing users to create, view, update, and delete information about content creators, including their names, URLs, descriptions, and images. It features a smooth navigation experience using React Router.**
 
-Time spent: **18** hours
-
 ## Required Features
 
 The following **required** functionality is completed:
